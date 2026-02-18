@@ -1,0 +1,22 @@
+{
+  "name": "example-qwik",
+  "version": "1.0.0",
+  "description": "Counter app with Qwik City — Trapiche example",
+  "scripts": {
+    "dev": "vite --mode ssr",
+    "build": "qwik build",
+    "start": "node server/entry.express.js"
+  },
+  "dependencies": {
+    "@builder.io/qwik": "^1.12.1",
+    "@qwik.dev/city": "^1.12.1",
+    "@qwik.dev/router": "^1.12.1",
+    "express": "^4.21.2",
+    "undici": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.10"
+  }
+}
