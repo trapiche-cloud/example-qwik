@@ -1,5 +1,5 @@
 import { component$, useSignal } from '@builder.io/qwik'
-import { routeAction$, type DocumentHead } from '@qwik.dev/city'
+import { routeAction$, type DocumentHead } from '@builder.io/qwik-city'
 
 export const useIncrement = routeAction$(async (_, { sharedMap }) => {
   const count = (sharedMap.get('count') ?? 0) as number

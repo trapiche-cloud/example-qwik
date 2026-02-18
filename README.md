@@ -11,7 +11,7 @@ A server-side counter app built with [Qwik City](https://qwik.dev/docs/qwikcity/
 
 ## Detection
 
-Trapiche detects this as a **Qwik City** app via `"@qwik.dev/city"` in `package.json`.
+Trapiche detects this as a **Qwik City** app via `"@builder.io/qwik-city"` in `package.json`.
 - Deploy mode: **SSR / Docker**
 - Build command: `npm run build`
 - Start command: `npm start` → `node server/entry.express.js`

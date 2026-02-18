@@ -1,5 +1,5 @@
 import { component$ } from '@builder.io/qwik'
-import { useDocumentHead } from '@qwik.dev/city'
+import { useDocumentHead } from '@builder.io/qwik-city'
 
 export const RouterHead = component$(() => {
   const head = useDocumentHead()
